@@ -1,0 +1,6 @@
+install.packages("devtools")
+library(devtools)
+install_github("d4ndo/binaryLogic")
+library(binaryLogic)
+install.packages("scales")
+library(scales)
