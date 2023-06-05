@@ -1,4 +1,4 @@
-data = read.csv("macro.csv")
+data = read.csv("https://raw.githubusercontent.com/ChungWookyung/kg-programming/main/PG08/macro.csv")
 head(data)
 
 plot(data$X, data$unemp, type="l")
