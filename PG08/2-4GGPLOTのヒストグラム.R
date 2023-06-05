@@ -3,7 +3,7 @@ head(mtcars)
 setting = aes(x=mpg)
 ggplot(mtcars, setting) + geom_histogram()
 
-data = read.csv("cps.csv")
+data = read.csv("https://raw.githubusercontent.com/ChungWookyung/kg-programming/main/PG08/cps.csv")
 head(data)
 
 setting = aes(x=age)
