@@ -1,4 +1,4 @@
-data = read.csv("confirmed_new.csv")
+data = read.csv("https://raw.githubusercontent.com/ChungWookyung/kg-programming/main/PG08/confirmed_new.csv")
 data$Date = as.Date(data$Date)
 head(data)
 
