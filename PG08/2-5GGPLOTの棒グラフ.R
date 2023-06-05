@@ -1,4 +1,4 @@
-data = read.csv("oecd.csv")
+data = read.csv("https://raw.githubusercontent.com/ChungWookyung/kg-programming/main/PG08/oecd.csv")
 head(data)
 
 data2010 = data[data$year == 2010,]
