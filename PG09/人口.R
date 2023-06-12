@@ -2,7 +2,7 @@ library("ggplot2")
 library("stringr")
 
 # データを読み込む
-data = read.csv("jinkou1.csv")
+data = read.csv("https://raw.githubusercontent.com/ChungWookyung/kg-programming/main/PG09/jinkou1.csv")
 head(data)
 
 # 年度を処理する
