@@ -3,7 +3,7 @@ library("stringr")
 library("reshape2")
 
 # データを読み込む
-data = read.csv("keizai1.csv")
+data = read.csv("https://raw.githubusercontent.com/ChungWookyung/kg-programming/main/PG09/keizai1.csv")
 head(data)
 
 # 年度を処理する
