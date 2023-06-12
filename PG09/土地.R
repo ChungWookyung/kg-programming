@@ -2,7 +2,7 @@ library("ggplot2")
 library("stringr")
 
 # データを読み込む
-data = read.csv("tochi1.csv")
+data = read.csv("https://raw.githubusercontent.com/ChungWookyung/kg-programming/main/PG09/tochi1.csv")
 head(data)
 
 # 年度を処理する
