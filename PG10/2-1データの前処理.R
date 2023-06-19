@@ -1,4 +1,4 @@
-data = read.csv("gumma.csv")
+data = read.csv("https://raw.githubusercontent.com/ChungWookyung/kg-programming/main/PG10/gumma.csv")
 head(data)
 
 colnames(data)
