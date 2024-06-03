@@ -1,3 +1,5 @@
+install.packages("AER")
+
 library("AER")
 
 data("PepperPrice")
