@@ -1,4 +1,4 @@
-data = read.csv("mhigh.csv")
+data = read.csv("https://raw.githubusercontent.com/ChungWookyung/kg-programming/main/PG06/mhigh.csv")
 
 head(data)
 
@@ -10,4 +10,4 @@ colnames(data) = c("name","name.katakana","sex","grade","japanese","math","sum",
 
 head(data)
 
-write.csv(data, "watashi.csv")
+write.csv(data, "mhighjp.csv")
